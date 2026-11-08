@@ -113,15 +113,16 @@ uv run --with mcp --with httpx python server/smoke_connect.py http://127.0.0.1:8
 
 ## 4. Install in Rakazo
 
-1. Push this folder to a **public** GitHub repository (private repos and local folders are not
-   installable sources).
-2. Rakazo: **Integrations → + → From GitHub**, paste the repo URL (or the folder URL if the plugin
-   sits in a subdirectory), choose **Preview**.
-3. Confirm the preview lists the `zoho-mail` server and the `zoho-mail` skill with nothing skipped.
+This plugin is published at <https://github.com/Chawron/zoho-mail-plugin>; fork it if you want your
+own copy (private repos and local folders are not installable sources).
+
+1. **Integrations → + → From GitHub**, paste the repo URL (or a subfolder URL if the plugin does
+   not sit at the repo root), choose **Preview**.
+2. Confirm the preview lists the `zoho-mail` server and the `zoho-mail` skill with nothing skipped.
    Choose **Connect** for the server, then **Add skills**.
-4. If the server needs a token, **Manage MCP servers → zoho-mail → Advanced → Access token**, then
+3. If the server needs a token, **Manage MCP servers → zoho-mail → Advanced → Access token**, then
    **Test connection**.
-5. With a bot selected, **Use in this bot**, and ask it something real:
+4. With a bot selected, **Use in this bot**, and ask it something real:
    *"What came in from billing@vendor.com this week?"*
 
 A valid config does not prove the tools work. Do one read and one draft before you trust it.
