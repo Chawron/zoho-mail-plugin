@@ -1,0 +1,12 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "zoho-mail": {
+      "type": "streamable-http",
+      "url": "https://REPLACE-WITH-YOUR-DEPLOYMENT.example/mcp",
+      "headers": {
+        "X-Zoho-Mail-Tools": "user"
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "zoho-mail",
+  "version": "1.0.0",
+  "description": "Read, search, send, file and automate Zoho Mail from any Rakazo bot through a hosted MCP server.",
+  "author": {
+    "name": "Moray Engineering",
+    "url": "https://rakazo.com"
+  },
+  "homepage": "https://github.com/Chawron/zoho-mail-plugin",
+  "repository": "https://github.com/Chawron/zoho-mail-plugin",
+  "license": "MIT",
+  "keywords": [
+    "zoho",
+    "zoho-mail",
+    "email",
+    "inbox",
+    "mcp"
+  ]
+}
